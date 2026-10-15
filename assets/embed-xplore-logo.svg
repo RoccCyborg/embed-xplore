@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+<title id="title">Embed Xplore</title><desc id="desc">Circuit-inspired EX monogram in navy, teal and gold, with Sanskrit and English taglines.</desc>
+<defs><linearGradient id="xg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#087c8b"/><stop offset="1" stop-color="#10b99c"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd34f"/><stop offset="1" stop-color="#f2a400"/></linearGradient></defs>
+<rect width="1200" height="690" rx="22" fill="#fff"/>
+<g transform="translate(85 35)">
+<!-- circuit nodes and traces -->
+<g fill="none" stroke="#087e91" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 95 H95 L132 58 H195"/><path d="M0 155 H65 L99 121 H194"/><path d="M0 215 H80 L119 254 H194"/><path d="M0 285 H63 L104 326 H195"/><path d="M0 350 H70 L103 383 H195"/>
+</g><g fill="#fff" stroke="#087e91" stroke-width="9"><circle cx="0" cy="95" r="13"/><circle cx="0" cy="155" r="13"/><circle cx="0" cy="215" r="13"/><circle cx="0" cy="285" r="13"/><circle cx="0" cy="350" r="13"/><circle cx="195" cy="58" r="13"/><circle cx="194" cy="121" r="13"/><circle cx="194" cy="254" r="13"/><circle cx="195" cy="326" r="13"/></g>
+<!-- E letter -->
+<path d="M215 30 H465 V112 H292 V158 H438 V236 H292 V282 H465 V364 H215 Q190 364 190 339 V55 Q190 30 215 30Z" fill="#08264b"/>
+<!-- X letter -->
+<path d="M500 30 H590 L690 143 L790 30 H884 L735 198 L884 364 H790 L690 253 L590 364 H500 L646 198Z" fill="url(#xg)"/>
+<!-- gold orbit accent -->
+<path d="M526 280 C630 210 741 94 844 29 C823 83 748 162 664 220 C615 254 563 280 526 280Z" fill="url(#gold)"/>
+<path d="M585 241 C667 178 744 101 804 60" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+<g fill="#10b99c"><rect x="898" y="28" width="27" height="27" rx="4"/><rect x="870" y="67" width="20" height="20" rx="3"/><rect x="918" y="89" width="15" height="15" rx="3"/></g><rect x="880" y="112" width="23" height="23" rx="3" fill="#f2ae16"/>
+</g>
+<text x="600" y="480" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" letter-spacing="1"><tspan fill="#08264b">EMBED </tspan><tspan fill="#087e91">XPLORE</tspan></text>
+<path d="M95 520 H515 M685 520 H1105" stroke="#f2ad17" stroke-width="3"/><circle cx="600" cy="520" r="7" fill="#f2ad17"/>
+<text x="600" y="565" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, sans-serif" font-size="31" fill="#10243a">विद्या संयुजते बुद्धिः, नवाचारः निर्मितिं भवति ।</text>
+<text x="600" y="615" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="4" fill="#08264b">KNOWLEDGE CONNECTS MINDS, INNOVATION CREATES TOMORROW.</text>
+</svg>
