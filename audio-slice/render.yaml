@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: slicesound-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./audio-slice/Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: https://rocccyborg.github.io
+      - key: MAX_CLIP_SECONDS
+        value: "3600"
