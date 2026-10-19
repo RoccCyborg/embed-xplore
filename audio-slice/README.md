@@ -12,7 +12,7 @@ A tiny, responsive front end for selecting a time range from a YouTube video, pr
 
 ## Important architecture note
 
-GitHub Pages hosts the static interface only. The export feature requires the optional API service in `api.py`, Python dependencies, and FFmpeg on a server. The website deliberately does not claim to export audio until that API is configured.
+GitHub Pages hosts the static interface only. The export feature requires the optional API service in `api.py`, Python dependencies, and FFmpeg on a server. The website deliberately does not claim to export audio until that API is configured. Reserved ad slots are included in the layout; they are placeholders, not active ads. Add an approved ad-network script and publisher ID only after the site is live and accepted by the network.
 
 Only process videos you own or have permission to download, and comply with YouTube's terms and applicable copyright law. Some videos may be unavailable to the processor due to access restrictions or platform changes.
 
